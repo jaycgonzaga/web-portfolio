@@ -1,0 +1,196 @@
+*{
+    scroll-behavior: smooth;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://media2.giphy.com/media/TlK63EChAGgxq7kTcFW/giphy.gif?cid=ecf05e47kjycdbx4swhjctylgl5ssitate4sf976k6yz8usn&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-attachment: fixed;
+}
+a{
+    color: black !important;
+}
+
+/* Navbar */
+.menu{
+    text-decoration: none !important;
+    transition: .16s;
+}
+.menu:hover{
+    color:gray !important;
+}
+
+.navbar-brand{
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: -5px !important;
+    margin-bottom: -8px;
+}
+
+.nav-item{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+/* Navbar end */
+/* Homepage */
+#home{
+    width: 100%;
+    height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+}
+
+#home h1{
+    color: black !important;
+}
+@media (min-width: 390px) {
+    #home-name {
+  font-size:4rem !important;
+  }
+  }
+   
+  @media (min-width: 768px) {
+    #home-name {
+  font-size:4.5rem !important;
+  }
+  }
+   
+  @media (min-width: 992px) { 
+    #home-name {
+  font-size:6rem !important;
+  }
+  }
+   
+  @media (min-width: 1200px) {
+    #home-name {
+  font-size:6rem !important;
+  }
+  }
+
+/* Homepage End */
+/* About me */
+#about-me{
+    background-color: #f8f9fa;
+    color:black;
+}
+#about-me h1, #about-me h4{
+    font-family: 'League Spartan', sans-serif;
+}
+#about-me p{
+    font-family: 'Poppins', sans-serif;
+}
+#about-me ul{
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+#about-me .skill-logo{
+    align-items: center !important;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    cursor: pointer;
+    display: flex;
+    height: 4rem;
+    justify-content: center !important;
+    width: 4rem;
+    row-gap: 2;
+}  
+#about-me .skill-logo img{
+    height: 3rem;
+    width: 3rem;
+}
+@media (min-width: 390px) {
+    #about-me #photo-me{
+        border-radius: 1.7rem;
+        height: 15rem;
+        width: 12rem;;
+  }
+  }
+   
+  @media (min-width: 768px) {
+    #about-me #photo-me {
+        border-radius: 1.7rem;
+        height: 20rem;
+        width: 15rem;
+  }
+  }
+   
+  @media (min-width: 992px) { 
+    #about-me #photo-me {
+        border-radius: 1.7rem;
+        height: 34rem;
+        width: 27rem;
+  }
+  }
+   
+  @media (min-width: 1230px) {
+    #about-me #photo-me {
+        border-radius: 1.7rem;
+        height: 44rem;
+        width: 42rem;
+  }
+  }
+  @media (min-width: 1454px) {
+    #about-me #photo-me {
+        border-radius: 1.7rem;
+        height: 52rem;
+        width: 42nrem;
+  }
+  }
+/* About me End */
+/* Projects */
+#projects{
+    font-family: 'Poppins', sans-serif;
+    color:gray;
+    padding: 8rem 0;
+    width:100%;
+}
+
+#projects h1, #projects h2{
+    font-family:'League Spartan', sans-serif;
+}
+#projects a{
+    text-decoration: none;
+}
+#proj-link{
+    color:gray !important;
+}
+#projects .container-fluid{
+    margin: 0 auto;
+    padding: 0 4rem;
+}
+
+
+#projects #proj{
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    gap: 4rem;
+    padding: 2rem;
+    margin: 4rem 0;
+}
+#projects img{
+    border-radius: 1.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.proj-logo{
+    transition: .16s;
+}
+
+.proj-logo:hover{
+    color: gray !important;
+}
+/* Projects End */
+/* Contact Me */
+#contact-me{
+    background-color:#f8f9fa;
+    width: 100%;
+    font-family: 'League Spartan', sans-serif;
+}
+/* Contact me End */
+/* Footer */
+footer{
+    background-color:#212529;
+    color:whitesmoke !important;
+}
+
+/* Footer End */

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCG - Web Developer</title>
+    <!-- Animate.CSS -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=League+Spartan:wght@800&family=Oswald:wght@500&family=Poppins:wght@200&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!-- AOS Link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand pl-lg-3 mx-md-auto" href="#"><h1 class="mb-0">JC<span class="text-primary">G.</span></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars fa-2xl" style="color: #000000;"></i>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a id="navhome" class="nav-link menu text-primary" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="navabout" class="nav-link menu" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a id="navproj" class="nav-link menu" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a id="navcontact" class="nav-link menu" href="#contact-me">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+    <!-- End of Navbar Section -->
+    <!-- Home Section -->
+    <section id="home" class="container-fluid d-flex align-items-center justify-content-center">
+        <div class = "row justify-content-center align-items-center">
+            <div class = "col-12">
+                <h1 id="home-name" class ="mt-5 text-dark animate__animated animate__bounce">JULIO GONZAGA</h1>
+                <h1 id="home-title" class ="fw-normal mt-5 text-dark animate__animated animate__backInLeft"><span class="text-primary">Full-Stack</span> Web Developer</h1>
+                
+            </div>
+        </div>
+    </section>  
+    <!-- End of Home Section -->
+    <!-- About me Section-->
+    <section id="about-me" class="align-items-center justify-content-center p-5" data-aos="zoom-out-up">
+      <div class="row align-items-center justify-content-center">
+          <div data-aos-anchor-placement="bottom-bottom" data-aos-duration="2500" data-aos-offset="300" class = "order-1 order-md-1 order-lg-1 col-12 col-lg-6 pl-lg-5">
+              <div class="p-5 d-flex justify-content-center">
+                  <img id="photo-me" class="img-fluid" src="./assets/images/face1.jpg" alt=""> 
+              </div>
+          </div>
+          <div class = "order-2 order-md-2 order-lg-2 col-12 col-lg-6 justify-content-center">
+              <h1 class="text-primary">About Me</h1>
+              <p>I am a 23-year old developer who resides in the beautiful city of Cagayan de Oro. I was a 4th year Nursing student and a Virtual Assistant before making the biggest decision of shifting into this industry.</p>
+              <div class="skills mt-5">
+                <h4 class="text-primary">Tech Stack:</h4>
+                <div class="logos pt-3 px-auto">
+                  <ul id="tech-stack" class="d-flex p-0 pl-5">
+                    <li class="skill-logo"><img class="img-fluid" src="./assets/images/html.svg" title="HTML5" alt="skill-icon"></li>
+                    <li class="skill-logo"><img class="img-fluid" src="./assets/images/css.svg" title="CSS3" alt="skill-icon"></li>
+                    <li class="skill-logo"><img class="img-fluid" src="./assets/images/javascript.svg" title="Java Script" alt="skill-icon"></li>
+                    <li class="skill-logo"><img class="img-fluid" src="./assets/images/mongodb.svg" title="MongoDB" alt="skill-icon"></li>
+                    <li class="skill-logo"><img class="img-fluid" src="./assets/images/reactjs.svg" title="ReactJS" alt="skill-icon"></li>
+                    <li class="skill-logo"><img class="img-fluid" src="./assets/images/nodejs.svg" title="NodeJS" alt="skill-icon"></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h1 class="text-center text-primary">MY PROJECTS</h1>
+        <div id="proj-main">
+          <div id="proj" class="row justify-content-center align-items-center" data-aos="zoom-out-up">
+            <div class="proj-img col-sm-8 col-md-4 col-lg-4">
+              <img class="img-fluid" src="./assets/images/pf-1.png" alt="">
+            </div>
+            <div class="proj-text text-center order-2 col-sm-8 col-md-4 col-lg-4">
+              <h2 class="text-primary">PORTFOLIO</h2>
+              <p>My first ever project is this portfolio! First one is always the hardest as what they always say.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="mr-2"><span class="mr-1">Code</span><i class="proj-logo fa-brands fa-github fa-2xl" style="color: black;"></i></a>
+                <a href="#home" class="ml-2"><span class="mr-1">Live Demo</span><i class="proj-logo fa-solid fa-arrow-up-right-from-square link-icon fa-xl " style="color: black;"></i></a>
+              </div> 
+            </div>
+          </div>
+          <div id="proj" class="row justify-content-center align-items-center" data-aos="zoom-out-up">
+            <div class="proj-img col-sm-8 col-md-4 col-lg-4">
+              <img class="img-fluid" src="./assets/images/pf-2.jpg" alt="">
+            </div>
+            <div class="proj-text text-center order-2 col-sm-12 col-md-4 col-lg-4">
+              <h2 class="text-primary">CAPSTONE 2</h2>
+              <p>My first back-end project is this project! JavaScript is as hard as I expect it to be.</p>
+              <div class="d-flex justify-content-center">
+                <a href="https://github.com/" target="_blank" class="mr-2"><span class="mr-1">Code</span><i class="proj-logo fa-brands fa-github fa-2xl" style="color: black;"></i></a>
+                <a href="https://discord.com/" target="_blank" class="ml-2"><span class="mr-1">Live Demo</span><i class="proj-logo fa-solid fa-arrow-up-right-from-square link-icon fa-xl " style="color: black;"></i></a>
+              </div> 
+            </div>
+          </div>
+          <div id="proj" class="row justify-content-center align-items-center" data-aos="zoom-out-up">
+            <div class="proj-img  col-sm-8 col-md-4 col-lg-4">
+              <img class="img-fluid" src="./assets/images/pf-3.png" alt="">
+            </div>
+            <div class="proj-text text-center order-2 col-sm-8 col-md-4 col-lg-4">
+              <h2 class="text-primary">CAPSTONE 3</h2>
+              <p>My first ever full-stack project! Toughest project so far but I will always be up for challenges.</p>
+              <div id="proj-link" class="d-flex justify-content-center">
+                <a href="https://github.com/" target="_blank" class="mr-2"><span class="mr-1">Code</span><i class="proj-logo fa-brands fa-github fa-2xl" style="color: black;"></i></a>
+                <a href="https://twitter.com/home" target="_blank" class="ml-2"><span class="mr-1">Live Demo</span><i class="proj-logo fa-solid fa-arrow-up-right-from-square link-icon fa-xl " style="color: black;"></i></a>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Project Section -->
+    <!-- Contact Me -->
+    <section id="contact-me" class="container-fluid">
+      <div class="row justify-content-center">
+			<div class="col-12 col-md-8 col-lg-5 py-5 px-5">
+				<h3 class="text-dark text-center">Contact Me</h3>
+			  <form action="./index.html" id="form-col" class="needs-validation text-dark py-3" novalidate>
+			    <div class="form-group">
+			      <label for="name">Name</label>
+			      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please input your name.</div>
+			    </div>
+			    <div class="form-group">
+			      <label for="email">Email Address</label>
+			      <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please input a valid email.</div>
+			    </div>
+			    <div class="form-group">
+			      <label for="contact-number">Contact Number</label>
+			      <input type="number" class="form-control" id="contact-number" placeholder="Enter your contact number" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+			    </div>
+			    <div class="form-group">
+			      <label for="message">Message</label>
+			      <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+			    </div>
+			    <button type="submit" class="btn btn-primary bg-dark" >
+					Send Email
+				  </button>
+        </form>
+			</div>
+			</div>
+    </section> 
+    <!-- End of Contact Me Section -->
+    <!-- Footer -->
+    <footer id="footer-section"class="p-3">
+      <p class="text-center">&copy;  2023 My Website. All Rights Reserved.</p>
+        <div class="nav-item d-flex flex-row justify-content-center align-content-center">
+          <a class="nav-link socmed" href="https://www.facebook.com/juliacesar.gonzaga/"><i class="fa-brands fa-facebook fa-m" style="color:  whitesmoke;"></i></a>
+          <a class="nav-link socmed" href="https://www.linkedin.com/in/julio-cesar-gonzaga-ba7111209/"><i class="fa-brands fa-linkedin fa-m" style="color:  whitesmoke;"></i></a>
+          <a class="nav-link socmed" href="https://github.com/jaycgonzaga"><i class="fa-brands fa-github fa-m" style="color:  whitesmoke;"></i></a>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    <!-- -----------------------------SCRIPTS---------------------------------- -->
+    <!-- Anime JS Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- Fontawesome Script -->
+    <script src="https://kit.fontawesome.com/e421afce6a.js" crossorigin="anonymous"></script>
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Form Validation Script -->
+    <script>
+      // Disable form submissions if there are invalid fields
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Get the forms we want to add validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+      </script>
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
